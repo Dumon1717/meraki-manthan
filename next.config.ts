@@ -11,7 +11,9 @@ const nextConfig: NextConfig = {
     ? {
         output: "export",
         basePath: `/${repo}`,
-        images: { unoptimized: true },
+        // A custom loader (not `unoptimized`) so that image `src` values get the
+        // `/${repo}` base-path prefix — otherwise images 404 on GitHub Pages.
+        images: { loader: "custom", loaderFile: "./image-loader.js" },
         trailingSlash: true,
       }
     : {}),

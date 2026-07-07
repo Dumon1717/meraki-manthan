@@ -6,6 +6,10 @@ import { TopBar } from "./components/layout/TopBar";
 import { Navbar } from "./components/layout/Navbar";
 import { Footer } from "./components/layout/Footer";
 
+// Base path for static assets referenced outside next/image (e.g. OG image).
+// Matches basePath in next.config.ts for the GitHub Pages build.
+const BASE_PATH = process.env.GITHUB_PAGES === "true" ? "/meraki-manthan" : "";
+
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   variable: "--font-jakarta",
@@ -43,7 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: org.nameUpper,
-    images: [{ url: "/images/hero-children.jpg", width: 1200, height: 630 }],
+    images: [{ url: `${BASE_PATH}/images/hero-children.jpg`, width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
