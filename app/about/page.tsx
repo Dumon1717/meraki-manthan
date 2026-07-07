@@ -144,8 +144,8 @@ export default function AboutPage() {
                   }`}
                 >
                   <div
-                    className={`absolute left-4 top-1.5 z-10 grid size-8 -translate-x-1/2 place-items-center rounded-full bg-primary text-xs font-bold text-white ring-4 ring-white md:left-auto ${
-                      i % 2 === 0 ? "md:-right-4 md:left-auto md:translate-x-1/2" : "md:-left-4 md:-translate-x-1/2"
+                    className={`absolute left-4 top-1.5 z-10 grid size-8 -translate-x-1/2 place-items-center rounded-full bg-primary text-xs font-bold text-white ring-4 ring-white ${
+                      i % 2 === 0 ? "md:left-full" : "md:left-0"
                     }`}
                   >
                     {i + 1}
