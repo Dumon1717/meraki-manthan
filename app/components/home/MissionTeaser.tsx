@@ -21,7 +21,7 @@ export function MissionTeaser() {
             <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-lift sm:aspect-[5/4] lg:aspect-[4/5]">
               <Image
                 src="/images/classroom-community.jpg"
-                alt="Children learning together at a Meraki Manthan centre"
+                alt="Meraki Manthan volunteers meeting a family during a community outreach survey"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -30,7 +30,7 @@ export function MissionTeaser() {
             <div className="absolute -bottom-6 -right-4 hidden w-44 overflow-hidden rounded-2xl shadow-lift ring-4 ring-cream sm:block">
               <Image
                 src="/images/kids-peace.jpg"
-                alt="Joyful children"
+                alt="A mother and her children in a village Meraki Manthan works with"
                 width={320}
                 height={240}
                 className="h-32 w-full object-cover"

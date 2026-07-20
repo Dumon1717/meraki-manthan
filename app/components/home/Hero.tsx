@@ -16,7 +16,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-children.jpg"
-          alt="Smiling children supported by Meraki Manthan"
+          alt="Meraki Manthan volunteers running a free community health camp"
           fill
           priority
           sizes="100vw"

@@ -59,7 +59,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-3xl shadow-lift">
                 <Image
                   src="/images/kids-monument.jpg"
-                  alt="Children in a community supported by Meraki Manthan"
+                  alt="The Meraki Manthan volunteer team at a community clinic"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
