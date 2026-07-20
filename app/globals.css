@@ -56,7 +56,9 @@
 
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    color: var(--color-ink);
+    /* No colour here on purpose: an element selector beats an inherited
+       colour, so setting it would stop `text-white` on a dark parent from
+       reaching the heading. Headings inherit (body = ink) instead. */
     letter-spacing: -0.02em;
     line-height: 1.1;
     text-wrap: balance;

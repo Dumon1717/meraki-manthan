@@ -32,7 +32,7 @@ export function CampaignCards() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/40 to-transparent" />
                 <div className="relative p-6 text-white">
-                  <h3 className="font-display text-xl font-bold">{c.title}</h3>
+                  <h3 className="font-display text-xl font-bold text-white">{c.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-white/80">{c.text}</p>
                   <span className="mt-4 inline-flex items-center gap-1.5 text-sm font-semibold text-accent">
                     {c.cta}

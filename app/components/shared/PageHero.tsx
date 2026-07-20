@@ -35,7 +35,7 @@ export function PageHero({
             {eyebrow}
           </span>
         )}
-        <h1 className="max-w-3xl font-display text-4xl font-extrabold leading-tight sm:text-5xl">
+        <h1 className="max-w-3xl font-display text-4xl font-extrabold leading-tight text-white sm:text-5xl">
           {title}
         </h1>
         {subtitle && (

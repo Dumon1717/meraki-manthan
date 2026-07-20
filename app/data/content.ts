@@ -20,8 +20,8 @@ export const org = {
     line2: "Buxar, Bihar – 802103",
     country: "India",
   },
-  // TODO: replace placeholder contact details
-  phone: "+91 90000 00000",
+  phone: "+91 91162 13151",
+  // TODO: confirm with client — still a placeholder
   email: "info@merakimanthan.org",
   hours: "Mon – Sat, 10:00 AM – 6:00 PM",
   socials: [
